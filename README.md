@@ -1,7 +1,7 @@
 r-amazon-config
 ===============
 
-This is a script that configures my preferred R development environment on a bare Amazon EC2 instance running Ubuntu.
+This is a bash script that configures my preferred R development environment on a bare Amazon EC2 instance running Ubuntu.
 
 How To Get Up and Running
 -------------------------
@@ -16,8 +16,11 @@ It's something long and fairly complicated so I'll refer to it here as ``instanc
 7. Run the script...
 
 
+What does this script do?
+-------------------------
+
 Helpful Links
 -------------
-[AWS Documentation] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
-[R on Amazon EC2](http://www.stat.yale.edu/~jay/EC2/CreateFromScratch.html)
-[R on Ubuntu](http://cran.r-project.org/bin/linux/ubuntu/README)
+-[AWS Documentation] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+-[R on Amazon EC2](http://www.stat.yale.edu/~jay/EC2/CreateFromScratch.html)
+-[R on Ubuntu](http://cran.r-project.org/bin/linux/ubuntu/README)
