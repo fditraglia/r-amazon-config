@@ -21,6 +21,7 @@ What does this script do?
 
 Helpful Links
 -------------
+
 -[AWS Documentation] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 -[R on Amazon EC2](http://www.stat.yale.edu/~jay/EC2/CreateFromScratch.html)
 -[R on Ubuntu](http://cran.r-project.org/bin/linux/ubuntu/README)
