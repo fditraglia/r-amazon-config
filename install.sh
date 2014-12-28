@@ -16,7 +16,7 @@ sudo apt-get install -y  r-base
 sudo chmod a+w /usr/local/lib/R/site-library
 
 # Install R packages
-R CMD BATCH install-r-packages.R
+R CMD BATCH ~/r-amazon-config/install-r-packages.R
 
 # Symlink dotfiles from git repo
 ln -s ~/dotfiles/vimrc ~/.vimrc
