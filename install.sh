@@ -17,4 +17,4 @@ source .bashrc
 sudo add-apt-repository "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" # ignore the error "sudo: unable to resolve host"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 sudo apt-get update
-sudo apt-get install r-base
+sudo apt-get install -y  r-base
