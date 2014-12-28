@@ -15,12 +15,11 @@ It's something long and fairly complicated so I'll refer to it here as ``instanc
 
 Usage
 -----
-All you need to do is install git, clone the repo, make the script executable and run it:
+All you need to do is install git, clone the repo, and run the script:
 ```
 sudo apt-get install git
 git clone https://github.com/fditraglia/r-amazon-config.git
-chmod 755 /r-amazon-config/install.sh
-./r-amazon-config/install.sh
+sh r-amazon-config/install.sh
 ```
 Helpful Links
 -------------
