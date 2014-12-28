@@ -10,7 +10,7 @@ git clone https://github.com/fditraglia/selectr.git # Bayesian variable selectio
 # Symlink dotfiles from git repo
 ln -s ~/dotfiles/vimrc ~/.vimrc
 mv ~/.bashrc ~/.bashrc.bak
-ln -s ~/dotfiles/vimrc ~/.bashrc
+ln -s ~/dotfiles/bashrc ~/.bashrc
 source .bashrc 
 
 # Install R (Assumes Ubuntu 14.04)
