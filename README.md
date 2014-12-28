@@ -22,16 +22,6 @@ git clone https://github.com/fditraglia/r-amazon-config.git
 chmod 755 /r-amazon-config/install.sh
 ./r-amazon-config/install.sh
 ```
-
-Using This Script
------------------
-First make the script executable with ``chmod 755 /r-amazon-config/install.sh`` then run it from ``~`` using ``./r-amazon-config/install.sh``i
-Now you're set to go!
-
-What does this script do?
--------------------------
-Sets up my dotfiles, installs R, etc.
-
 Helpful Links
 -------------
 - [AWS Documentation] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
