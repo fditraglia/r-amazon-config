@@ -18,3 +18,9 @@ sudo add-apt-repository "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" #
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 sudo apt-get update
 sudo apt-get install -y  r-base
+
+# Make R packages directory writeable
+sudo chmod a+w /usr/local/lib/R/site-library
+
+# Install R packages
+R CMD BATCH install-r-packages.R
