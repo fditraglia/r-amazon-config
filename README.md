@@ -1,7 +1,8 @@
 r-amazon-config
 ===============
 
-This is a bash script that configures my preferred R development environment on a bare Amazon EC2 instance running Ubuntu.
+This is a bash script that configures my preferred R development environment on a bare Amazon EC2 instance running Ubuntu 14.04.
+Some slight changes are needed for different versions of Ubuntu.
 
 Logging Into Your Instance
 ---------------------------
