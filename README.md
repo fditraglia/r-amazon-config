@@ -17,7 +17,7 @@ Usage
 -----
 All you need to do is install git, clone the repo, make the script executable and run it:
 ```
-sudo apt-get
+sudo apt-get install git
 git clone https://github.com/fditraglia/r-amazon-config.git
 chmod 755 /r-amazon-config/install.sh
 ./r-amazon-config/install.sh
