@@ -13,9 +13,15 @@ Suppose it's called ``mykey.pem``.
 It's something long and fairly complicated so I'll refer to it here as ``instance-public-DNS``
 4. Log into the instance via ``ssh``. On this machine your username is ``ubuntu`` so the command is ``ssh -i ~/.ssh/mykey.pem ubuntu@instance-public-DNS``
 
-Before You Run This Script
-----------------------------
-Install git ``sudo apt-get install git`` (you won't need a password for sudo) and clone this repo: ``git clone https://github.com/fditraglia/r-amazon-config.git``
+Usage
+-----
+All you need to do is install git, clone the repo, make the script executable and run it:
+```
+sudo apt-get
+git clone https://github.com/fditraglia/r-amazon-config.git
+chmod 755 /r-amazon-config/install.sh
+./r-amazon-config/install.sh
+```
 
 Using This Script
 -----------------
