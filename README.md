@@ -19,7 +19,8 @@ Install git ``sudo apt-get install git`` (you won't need a password for sudo) an
 
 Using This Script
 -----------------
-Change mode run and you're set to go!
+First make the script executable with ``chmod 755 /r-amazon-config/install.sh`` then run it from ``~`` using ``./r-amazon-config/install.sh``i
+Now you're set to go!
 
 What does this script do?
 -------------------------
