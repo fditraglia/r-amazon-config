@@ -7,8 +7,8 @@ git clone https://github.com/fditraglia/dotfiles.git # my dotfiles
 git clone https://github.com/fditraglia/selectr.git # Bayesian variable selection
 
 # Install R (Assumes Ubuntu 14.04)
-sudo add-apt-repository "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" # ignore the error "sudo: unable to resolve host"
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+#sudo add-apt-repository "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" # ignore the error "sudo: unable to resolve host"
+#sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 sudo apt-get update
 sudo apt-get install -y  r-base
 
