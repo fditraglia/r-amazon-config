@@ -21,6 +21,8 @@ sudo apt-get install git
 git clone https://github.com/fditraglia/r-amazon-config.git
 sh r-amazon-config/install.sh
 ```
+When you're all done, you'll need to do ``source .bashrc`` to use new settings immediately
+
 Helpful Links
 -------------
 - [AWS Documentation] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)

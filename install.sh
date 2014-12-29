@@ -21,5 +21,3 @@ ln -s ~/dotfiles/vimrc ~/.vimrc
 mv ~/.bashrc ~/.bashrc.bak
 ln -s ~/dotfiles/bashrc ~/.bashrc
 ln -s ~/dotfiles/inputrc ~/.inputrc
-source ~/.inputrc 
-source ~/.bashrc 
