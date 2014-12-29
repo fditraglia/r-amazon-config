@@ -12,11 +12,14 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 sudo apt-get update
 sudo apt-get install -y  r-base
 
+# Install R Packages
+sudo apt-get install -y r-rcpparmadillo
+
 # Make R packages directory writeable
-sudo chmod a+w /usr/local/lib/R/site-library
+#sudo chmod a+w /usr/local/lib/R/site-library
 
 # Install R packages
-R CMD BATCH ~/r-amazon-config/install-r-packages.R
+#R CMD BATCH ~/r-amazon-config/install-r-packages.R
 
 # Symlink dotfiles from git repo
 ln -s ~/dotfiles/vimrc ~/.vimrc
