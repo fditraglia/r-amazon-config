@@ -4,7 +4,7 @@ cd ~ # in case I run this from the wrong directory
 
 # Clone Git Repos 
 git clone https://github.com/fditraglia/dotfiles.git # my dotfiles
-git clone https://github.com/fditraglia/selectr.git # Bayesian variable selection
+git clone https://github.com/fditraglia/zoofactor.git # Bayesian SUR pkg
 
 # Install R (Assumes Ubuntu 14.04)
 sudo apt-get update
